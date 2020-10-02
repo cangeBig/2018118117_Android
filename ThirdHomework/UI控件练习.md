@@ -14,7 +14,8 @@
 
 ### EditText与Button结合
 使用EditText与Button来完成一些功能，比如通过点击按钮来获取EditText中输入的内容。
-<img src="/ThirdHomework/img/editText.jpg" width="50%" height="50%">
+<img src="/ThirdHomework/img/editText.jpg" width="50%" height="50%">  
+
 在按钮的点击事件里面调用EditText的getText()方法获取到输入的内容，再调用toString()方法转换成字符串，最后还是老方法使用Toast将输入的内容显示出来。  
 如上图：EditText里面输入“女神”，通过按钮用Toast把内容显示出来。  
 
@@ -29,7 +30,8 @@ imageView是用于在界面上展示图片的一个控件，它可以让我们�
 ### AlertDialog使用
 AlertDialog可以在当前的界面弹出一个对话框，这个对话框是置顶与所有界面元素之上的，能够屏蔽其他控件的交互能力，因此AlertDialog一般都是用于提示一些非常重要的内容或者警告信息。  
 运行程序，当要退出程序时
-<img src="/ThirdHomework/img/AlertDialog.jpg" width="50%" height="50%">
+<img src="/ThirdHomework/img/AlertDialog.jpg" width="50%" height="50%">  
+
 点是时，即退出程序
 <img src="/ThirdHomework/img/exit.jpg" width="50%" height="50%">
 
