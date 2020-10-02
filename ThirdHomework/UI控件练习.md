@@ -3,7 +3,7 @@
 练习和掌握android的几种常用的控件：TextView、Button、EditText、ImageView、AlertDialog，了解和熟悉几种布局。
 
 ## 实验内容
-![](/ThirdHomework/img/main.jpg){:height="50" width="100"}  
+![](/ThirdHomework/img/main.jpg)
 
 ### 布局情况： 
 整体采用垂直布局   
@@ -25,3 +25,10 @@ imageView是用于在界面上展示图片的一个控件，它可以让我们�
 
 在按钮的点击事件里，通过调用ImageView的setImageResource()方法将显示的图片改变为two.jpg，再点一下变成one.jpg,可以反复转换
 ![](/ThirdHomework/img/change.jpg)
+
+### AlertDialog使用
+AlertDialog可以在当前的界面弹出一个对话框，这个对话框是置顶与所有界面元素之上的，能够屏蔽其他控件的交互能力，因此AlertDialog一般都是用于提示一些非常重要的内容或者警告信息。  
+运行程序，当要退出程序时
+![](/ThirdHomework/img/AlertDialog.jpg)
+点是时，即退出程序
+![](/ThirdHomework/img/exit.jpg)
