@@ -3,7 +3,7 @@
 练习和掌握android的几种常用的控件：TextView、Button、EditText、ImageView、AlertDialog，了解和熟悉几种布局。
 
 ## 实验内容
-![](/ThirdHomework/img/main.jpg=100*100)  
+![](/ThirdHomework/img/main.jpg =100*100)  
 
 ### 布局情况： 
 整体采用垂直布局   
