@@ -32,3 +32,7 @@ AlertDialog可以在当前的界面弹出一个对话框，这个对话框是置
 ![](/ThirdHomework/img/AlertDialog.jpg)
 点是时，即退出程序
 ![](/ThirdHomework/img/exit.jpg)
+
+## 实验心得
+通过这个实验，对android的几种常用的控件和布局有了更加深入的了解，今后会更加努力练习达到熟悉的程度。
+
