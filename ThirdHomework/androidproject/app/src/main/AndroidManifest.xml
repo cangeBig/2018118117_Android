@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UItest.UIActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityTest.FirstActivity"
+            android:label="活动的启动模式"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity
+            android:name=".ActivityLifeCycleTest.DialogActivity"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".ActivityLifeCycleTest.NormalActivity" />
+        <activity
+            android:name=".ActivityTest.ThirdActivity"
+            android:label="ThirdActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityTest.SecondActivity"
+            android:label="SecondActivity"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="com.example.demo.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.example.demo.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityLifeCycleTest.MainActivity"
+            android:label="生命周期练习"></activity>
+    </application>
+
+</manifest>
