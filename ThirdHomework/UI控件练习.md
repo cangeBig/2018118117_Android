@@ -17,3 +17,11 @@
 ![](/ThirdHomework/img/editText.jpg)  
 在按钮的点击事件里面调用EditText的getText()方法获取到输入的内容，再调用toString()方法转换成字符串，最后还是老方法使用Toast将输入的内容显示出来。  
 如上图：EditText里面输入“女神”，通过按钮用Toast把内容显示出来。  
+
+### imageView使用
+imageView是用于在界面上展示图片的一个控件，它可以让我们的程序界面变得更加丰富多彩。我们在res目录下新建一个drawable-xhdpi目录，然后将事先准备好的两张图片one.jpg和two.jpg复制到该目录当中。
+如下，当前imageView中放着one.jpg
+![](/ThirdHomework/img/main.jpg)  
+
+在按钮的点击事件里，通过调用ImageView的setImageResource()方法将显示的图片改变为two.jpg，再点一下变成one.jpg,可以反复转换
+![](/ThirdHomework/img/change.jpg)
