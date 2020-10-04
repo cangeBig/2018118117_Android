@@ -87,3 +87,6 @@
 点击右上角的橙子图片，结果如下：  
 显示了“you clicked Text”+水果名称  
 <img src="/FourHomework/img/clickText.jpg" width="50%" height="50%">  
+
+## 实验总结
+通过这次实验，更加深入的掌握RecyclerView的使用和点击事件，以后会更加努力练习，达到熟悉的程度。
