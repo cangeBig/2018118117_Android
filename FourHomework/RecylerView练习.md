@@ -1,2 +1,50 @@
 # RecyclerView练习
-## 掌握RecyclerView的使用和点击事件
+## 实验目的
+掌握RecyclerView的使用和点击事件
+
+
+## 实验内容
+我们定义了一个ImageView用于显示水果的图片，又定义了一个TextView用于显示水果的名称，存在fruit_item.xml
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <ImageView
+        android:id="@+id/fruit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp" />
+	</LinearLayout>
+
+我们在activity_recycle_view.xml中放了一个recycleView,并在它所属的活动RecycleViewActivity中的onCreate方法中启动瀑布流布局，把布局分为3列，把布局纵向排列。
+
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_recycle_view);
+        initFruits();
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycle_view);
+        StaggeredGridLayoutManager layoutManager = new
+                StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL);
+
+        recyclerView.setLayoutManager(layoutManager);
+        FruitAdapter adapter = new FruitAdapter(fruitList);
+        recyclerView.setAdapter(adapter);
+    }
+
+
+启动程序，结果如下：  
+<img src="/FourHomework/img/firstPage.jpg" width="50%" height="50%">  
+往下翻如下：  
+<img src="/FourHomework/img/nextPage.jpg" width="50%" height="50%">  
