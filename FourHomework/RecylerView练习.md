@@ -48,3 +48,42 @@
 <img src="/FourHomework/img/firstPage.jpg" width="50%" height="50%">  
 往下翻如下：  
 <img src="/FourHomework/img/nextPage.jpg" width="50%" height="50%">  
+
+
+## RecylerView点击事件
+我们在FruitAdapter中给ImageView的fruitImage和TextView的fruitName注册点击事件，结果都使用Toast弹出水果的名称。
+
+	 @NonNull
+    @Override
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext())
+                .inflate(R.layout.fruit_item,parent,false);
+        final ViewHolder holder = new ViewHolder(view);
+        holder.fruitImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int position = holder.getAdapterPosition();
+                Fruit fruit = mFruitList.get(position);
+                Toast.makeText(view.getContext(),"you clicked image"+fruit.getName(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        holder.fruitName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int position = holder.getAdapterPosition();
+                Fruit fruit = mFruitList.get(position);
+                Toast.makeText(view.getContext(),"you clicked text"+fruit.getName(),
+                        Toast.LENGTH_SHORT).show();
+            }
+        });
+        return  holder;
+    }
+
+运行程序，点击右上角的橙子图片，结果如下：  
+显示了“you clicked image”+水果名称    
+<img src="/FourHomework/img/clickImage.jpg" width="50%" height="50%">  
+
+点击右上角的橙子图片，结果如下：  
+显示了“you clicked Text”+水果名称  
+<img src="/FourHomework/img/clickText.jpg" width="50%" height="50%">  
