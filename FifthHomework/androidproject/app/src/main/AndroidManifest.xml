@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UItest.UIActivity">
+        <activity android:name=".RecycleViewTest.RecycleViewActivity"
+            android:label="RecycleView使用">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
+            android:name=".ListViewTest.ListViewActivity"
+            android:label="ListView使用">
+        </activity>
+        <activity android:name=".UItest.UIActivity" />
+        <activity
             android:name=".ActivityTest.FirstActivity"
             android:label="活动的启动模式"
-            android:launchMode="singleTask">
-
-        </activity>
+            android:launchMode="singleTask" />
         <activity
             android:name=".ActivityLifeCycleTest.DialogActivity"
             android:theme="@style/Theme.AppCompat.Dialog" />
@@ -47,7 +51,7 @@
         </activity>
         <activity
             android:name=".ActivityLifeCycleTest.MainActivity"
-            android:label="生命周期练习"></activity>
+            android:label="生命周期练习" />
     </application>
 
 </manifest>
