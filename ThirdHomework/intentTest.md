@@ -51,7 +51,7 @@
         });
 
 运行程序如下：  
-<img src="/ThirdHomework/img/firstActivity.jpg" width="50%" height="50%">  
+<img src="/ThirdHomework/img/phone.jpg" width="50%" height="50%">  
 我们还也可以在Intent启动活动的时候传递数据，将想要传递的数据暂存在Intent中，启动了另一个活动后，只需要把这些数
 据再从Intent中取出,从而实现向下一个活动传递数据
 
