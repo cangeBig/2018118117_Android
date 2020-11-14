@@ -9,7 +9,7 @@
 ### [项目](https://github.com/cangeBig/2018118117_Android/tree/master/SecondHomework)
 
 ## 第三次作业
-### [Intent练习](https://github.com/cangeBig/2018118117_Android/tree/master/ThirdHomework/intentTest.md)
+### [Intent练习.md](https://github.com/cangeBig/2018118117_Android/tree/master/ThirdHomework/intentTest.md)
 ### [项目](https://github.com/cangeBig/2018118117_Android/tree/master/ThirdHomework/IntentTest)
 
 ## 第四次作业
