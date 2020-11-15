@@ -3,7 +3,7 @@
 练习和掌握android的几种常用的控件：TextView、Button、EditText、ImageView、AlertDialog，了解和熟悉几种布局。
 
 ## 实验内容
-<img src="/ThirdHomework/img/main.jpg" width="50%" height="50%">
+<img src="/FourHomework/img/main.jpg" width="50%" height="50%">
 
 ### 布局情况： 
 整体采用垂直布局   
@@ -14,7 +14,7 @@
 
 ### EditText与Button结合
 使用EditText与Button来完成一些功能，比如通过点击按钮来获取EditText中输入的内容。
-<img src="/ThirdHomework/img/editText.jpg" width="50%" height="50%">  
+<img src="/FourHomework/img/editText.jpg" width="50%" height="50%">  
 
 在按钮的点击事件里面调用EditText的getText()方法获取到输入的内容，再调用toString()方法转换成字符串，最后还是老方法使用Toast将输入的内容显示出来。  
 如上图：EditText里面输入“女神”，通过按钮用Toast把内容显示出来。  
@@ -22,17 +22,17 @@
 ### imageView使用
 imageView是用于在界面上展示图片的一个控件，它可以让我们的程序界面变得更加丰富多彩。我们在res目录下新建一个drawable-xhdpi目录，然后将事先准备好的两张图片one.jpg和two.jpg复制到该目录当中。
 如下，当前imageView中放着one.jpg
-<img src="/ThirdHomework/img/main.jpg" width="50%" height="50%">
+<img src="/FourHomework/img/main.jpg" width="50%" height="50%">
 
 在按钮的点击事件里，通过调用ImageView的setImageResource()方法将显示的图片改变为two.jpg，再点一下变成one.jpg,可以反复转换
-<img src="/ThirdHomework/img/change.jpg" width="50%" height="50%">
+<img src="/FourHomework/img/change.jpg" width="50%" height="50%">
 
 ### AlertDialog使用
 AlertDialog可以在当前的界面弹出一个对话框，这个对话框是置顶与所有界面元素之上的，能够屏蔽其他控件的交互能力，因此AlertDialog一般都是用于提示一些非常重要的内容或者警告信息。  
 运行程序，当要退出程序时   
-<img src="/ThirdHomework/img/AlertDialog.jpg" width="50%" height="50%">  
+<img src="/FourHomework/img/AlertDialog.jpg" width="50%" height="50%">  
 点是时，即退出程序  
-<img src="/ThirdHomework/img/exit.jpg" width="50%" height="50%">
+<img src="/FourHomework/img/exit.jpg" width="50%" height="50%">
 
 ## 实验心得
 通过这个实验，对android的几种常用的控件和布局有了更加深入的了解，今后会更加努力练习达到熟悉的程度。
