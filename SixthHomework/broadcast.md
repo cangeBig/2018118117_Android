@@ -32,7 +32,7 @@
             }
         }
     }
-运行程序，然后按下Home键-Settings-Data usage,进入到数据使用详情界面，关闭Cellular data 会弹出无网络可用的提示，然后重新打开Cellular data 又会弹出网络可用的提示。
+运行程序，然后按下Home键-Settings-Data usage,进入到数据使用详情界面，关闭Cellular data 会弹出无网络可用的提示，然后重新打开Cellular data 又会弹出网络可用的提示。  
 <img src="/SixthHomework/img/netAvailable.jpg" width="50%" height="50%">  
 <img src="/SixthHomework/img/netNotavailable.jpg" width="50%" height="50%">  
 #### 静态注册
@@ -64,9 +64,9 @@
             </intent-filter>
         </receiver>
 
-运行程序，点击按钮如下：  
+运行程序，点击按钮如下：    
 <img src="/SixthHomework/img/MyBroadCast.jpg" width="50%" height="50%">   
-新建一个项目，并用静态注册一个广播接收器，接收的同样是上面那条广播。运行这个项目，再返回到BroadcastTest项目的主界面，点击按钮，就会分别弹出两次提示消息
+新建一个项目，并用静态注册一个广播接收器，接收的同样是上面那条广播。运行这个项目，再返回到BroadcastTest项目的主界面，点击按钮，就会分别弹出两次提示消息  
 <img src="/SixthHomework/img/MyBroadCast.jpg" width="50%" height="50%">  
 <img src="/SixthHomework/img/AnotherBroadCast.jpg" width="50%" height="50%">   
 #### 有序广播
