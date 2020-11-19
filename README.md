@@ -27,3 +27,7 @@
 ## 第六次作业
 ### [广播练习.md](https://github.com/cangeBig/2018118117_Android/blob/master/SixthHomework/broadcast.md)
 ### [项目](https://github.com/cangeBig/2018118117_Android/blob/master/SixthHomework/)
+
+## 第七次作业
+### [数据交换.md](https://github.com/cangeBig/2018118117_Android/blob/master/SeventhHomework/%E6%95%B0%E6%8D%AE%E4%BA%A4%E6%8D%A2.md)
+### [项目](https://github.com/cangeBig/2018118117_Android/blob/master/SeventhHomework)
