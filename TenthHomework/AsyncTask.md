@@ -1,6 +1,6 @@
-#实验目的
+# 实验目的
 子服务的绑定，子服务代码运行在异步任务
-##实验内容
+## 实验内容
 AsyncTask定义了三种泛型类型 Params，Progress和Result。
 
 * Params 启动任务执行的输入参数，比如HTTP请求的URL。
