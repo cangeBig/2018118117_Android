@@ -1,5 +1,5 @@
 # 实验目的
-子服务的绑定，子服务代码运行在异步任务
+异步任务的隐含子线程程序框架
 ## 实验内容
 AsyncTask定义了三种泛型类型 Params，Progress和Result。
 
@@ -61,10 +61,10 @@ AsyncTask定义了三种泛型类型 Params，Progress和Result。
         }
 
 运行程序，如下：  
-<img src="/TenthHomework/img/mainface.jpg" width="50%" height="50%">   
+<img src="/EighthHomework/img/mainface.jpg" width="50%" height="50%">   
 点击download按钮，如下：  
-<img src="/TenthHomework/img/download.jpg" width="50%" height="50%">   
+<img src="/EighthHomework/img/download.jpg" width="50%" height="50%">   
 点击cancel按钮，下载取消：  
-<img src="/TenthHomework/img/cancel.jpg" width="50%" height="50%">   
+<img src="/EighthHomework/img/cancel.jpg" width="50%" height="50%">   
 点击add按钮，最下面的textView发生变化，说明在下载的同时也能进行其他操作：  
-<img src="/TenthHomework/img/add.jpg" width="50%" height="50%"> 
+<img src="/EighthHomework/img/add.jpg" width="50%" height="50%"> 
